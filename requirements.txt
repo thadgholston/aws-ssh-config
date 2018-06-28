@@ -1,0 +1,2 @@
+boto3==1.7.31
+inflection==0.3.1
