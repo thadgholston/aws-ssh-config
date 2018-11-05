@@ -190,7 +190,7 @@ def generate_config_entry(instance, use_private_ip, no_identities_only,
     if instance.id:
         print('# ID:', instance.id)
     print('Host', host_name)
-    print('    HostName', ip_address)
+    print('    Hostname', ip_address)
 
     if proxy_server:
         print('    Proxycommand ssh ' + proxy_server + ' -W %h:%p')
